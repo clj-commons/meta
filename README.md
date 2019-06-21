@@ -1,6 +1,17 @@
 # wishlist
 A meta-repo for stuff you'd like clj-commons to take care of
 
+# community discussions:
+
+## Slack:
+
+You can join the channel #clj-commons on https://clojurians.slack.com
+
+## Forum:
+
+Clojureverse is a community forum for clojure, feel free also to write topic related to clj-commons if you like this kind of communication
+
+
 # What to do
 
 If you use a project that's in need of tlc, please file an issue about it, so we can start working on transferring it to clj-commons.
