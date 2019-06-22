@@ -1,5 +1,6 @@
-# wishlist
-A meta-repo for stuff you'd like clj-commons to take care of
+# clj-commons meta
+
+This is a meta discussion repo for clj-commons issues. It's also the place to open an issue to suggest a project that clj-commons could adopt.
 
 # community discussions:
 
@@ -27,9 +28,9 @@ If there's stuff you think clj-commons should be doing, but is not, guess what, 
 
 # Entry Criteria
 
-Before bringing a project into clj-commons, there are some entry criteria that need to be satisfied:
+Before adopting a project into clj-commons, there are some entry criteria that need to be satisfied:
 
-* The project is 'unmaintained'. This is subjective, and there are many libraries which are just 'done'. Indications that a project is unmaintained could be: issues and PRs not being addressed for years, no recent releases, no commits for years, or the maintainer is no longer involved with Clojure.
+* The project is 'unmaintained'. This is subjective, and there are many libraries which are just 'done'. Indications that a project is unmaintained could be: the library breaking with new Java or Clojure versions, issues and PRs not being addressed for years, no recent releases, no commits for years, or the maintainer is no longer involved with Clojure.
 * The project is notable, useful, and currently being used by people. This is inherently subjective, but some evidence for this could be number of stars on GitHub, recent issues/PRs, number of downloads on Clojars, how much work went into creating it, or if any notable projects depend on it. An example of a project that wouldn't be accepted is a small library created by one person that only they use.
 * There is at least one person who wants to be a maintainer of the project. These maintainers will be listed in a `CODEOWNERS` file. We don’t want the new home of the project to become unmaintained as well.
 * We have attempted to talk to the original owner of the project and they are happy to transfer the project. The goal is not to be forking projects away from people who want to manage the project themselves.
