@@ -44,3 +44,10 @@ Minimum requirements for projects in clj-commons:
 * Regularly creating releases
 * Staying up to date with new Clojure and JVM releases
 
+# When to use the `clj-commons` Maven group ID vs. the original group ID
+
+If an existing project is being transferred to clj-commons, then we should try and use the original Maven group ID if possible. This requires the original maintainer add a clj-commons team member as a Clojars collaborator.
+
+This is because there is currently no good way to communicate to dependency tooling like lein-ancient that the artifact which was once maintained under `group-x/project-y` is now maintained under `clj-commons/project-y`.
+
+If the original maintainer can't be contacted to transfer Clojars admin rights, then it will be necessary to switch the group ID to `clj-commons`. In this case, it is a good idea to add a note to the README explaining the change, and the original lineage of the project.
