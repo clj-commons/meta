@@ -44,6 +44,7 @@ Minimum requirements for projects in clj-commons:
 * Documentation ([cljdoc.org](https://cljdoc.org) makes this very easy)
 * Regularly creating releases
 * Staying up to date with new Clojure and JVM releases
+* Use preferably [Circleci](https://circleci.com/) instead of Travis for the ci of the repository. (this will more coherent along all the projects maintained)
 
 # When to use the `clj-commons` Maven group ID vs. the original group ID
 
