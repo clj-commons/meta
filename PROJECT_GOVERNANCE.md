@@ -25,7 +25,7 @@ When a project is adopted into clj-commons, a transfer of ownership should be pr
 We should resort to forking only if the original maintainers remain unresponsive to our inquiries.
  Currently, unresponsive means not having replied to our request within two months of repeated outreach.
 
-# Artefact Coordinates
+# Artifact Coordinates
 
 As with transfer vs forking, artefact coordinates also need consideration. There are limitations to
  how Clojars work, which makes it hard for a Clojars group to change ownership of a single artefact
