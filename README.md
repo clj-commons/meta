@@ -53,3 +53,7 @@ If an existing project is being transferred to clj-commons, then we should try a
 This is because there is currently no good way to communicate to dependency tooling like lein-ancient that the artifact which was once maintained under `group-x/project-y` is now maintained under `clj-commons/project-y`.
 
 If the original maintainer can't be contacted to transfer Clojars admin rights, then it will be necessary to switch the group ID to `clj-commons`. In this case, it is a good idea to add a note to the README explaining the change, and the original lineage of the project.
+
+# Sponsorship
+
+clj-commons is a loosely formed organization which does not accept sponsorships on behalf of its maintainers. This does not mean that you cannot sponsor the maintainers directly if they accept sponsorship. Anotherway of contributing back to the community would be to sponsor [Clojurists Together](https://www.clojuriststogether.org), allthough there is no guarantee that such a sponsorship would directly benefit clj-commons.
